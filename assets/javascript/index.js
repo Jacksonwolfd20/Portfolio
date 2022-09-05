@@ -1,3 +1,15 @@
+mtg = document.querySelector("#MTG");
+Portfolio = document.querySelector("#Portfolio");
+
+img = document.querySelector("#Img");
+
+imgTitle = document.querySelector("#img-Title");
+
+mtgText = document.querySelector("#MTG-Text")
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -19,3 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
   });
+
+
+  mtgText.addEventListener("click", function () {
+    imgTitle.textContent = ("MTG-Deck-Builder");
+    mtg.classList.add('is-active');
+    Portfolio.classList.remove('is-active');
+
+  })
+
+ 

@@ -1,0 +1,17 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+#img{
+    height: 500px;
+    width: 900px;
+}
